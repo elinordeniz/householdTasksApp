@@ -23,21 +23,32 @@
 - **Frontend: REACT.js**
 
 > -Redux Toolkit
+>
 > -RTK Query
+>
 > -React Router DOM
+>
 > -i18next ( multi-language)
+>
 > -jwt-decode ( cookie token decode)
+>
 > -MUI material (styles)
+>
 > -mongoose
 
 - **Backend: Node.js (REST API)**
 
 > -express
+>
 > -jsonwebtoken
+>
 > -bcrypt
+>
 > -express-async-handler
+>
 > -date-fns
 > -uui
+>
 > -cors
 
 - **Database**
@@ -45,5 +56,7 @@
 > -Mongo DB (nosql)
 
 ## Preview
+
+![Preview App Home Page](https://github.com/elinordeniz/householdTasksApp/blob/main/public/prev.jpeg?raw=true)
 
 [- Click here to visit the app live.](householdtaskapp.render.com)
