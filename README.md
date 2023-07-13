@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Household Tasks App (Full-stack MERN Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This app is made for families to manage their houseworks. This app help parents to keep themselves and their children informed about their responsibilites.
 
-## Available Scripts
+## This app provides;
 
-In the project directory, you can run:
+- Parents are authorized to create and delete a user.
 
-### `npm start`
+- Parents are authorized to delete a task and assign a task to any family members.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Admin are authorized to anything that parents are.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Members can only create a task for themselves.
 
-### `npm test`
+- Members can only view the tasks that are assigned to them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Members can mark their task as completed
 
-### `npm run build`
+- Members cannot view user lists, other tasks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Techs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend: REACT.js**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> -Redux Toolkit
+> -RTK Query
+> -React Router DOM
+> -i18next ( multi-language)
+> -jwt-decode ( cookie token decode)
+> -MUI material (styles)
+> -mongoose
 
-### `npm run eject`
+- **Backend: Node.js (REST API)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> -express
+> -jsonwebtoken
+> -bcrypt
+> -express-async-handler
+> -date-fns
+> -uui
+> -cors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Database**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> -Mongo DB (nosql)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Preview
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[- Click here to visit the app live.](householdtaskapp.render.com)
