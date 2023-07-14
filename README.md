@@ -1,5 +1,8 @@
 # Household Tasks App (Full-stack MERN Project)
 
+- This react app is the frontend of this Full-stack MERN Project;
+  - [Live App](https://householdtaskapp.onrender.com/)
+  - [Backend Repo](https://github.com/elinordeniz/householdTasksApi)
 - This app is made for families to manage their houseworks. This app help parents to keep themselves and their children informed about their responsibilites.
 
 ## This app provides;
