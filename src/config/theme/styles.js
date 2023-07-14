@@ -51,7 +51,7 @@ export const PublicLoginButton = styled(Button)(({ theme }) => ({
   background: theme.palette.secondary.main,
   color: "white",
   marginTop: "3.5rem",
-  marginBottom: "1.5rem",
+  marginBottom: "3.5rem",
   display: "flex",
   minHeight: "60px",
   minWidth: "120px",
@@ -100,6 +100,8 @@ export const PublicFooter = styled(Box)(({ theme }) => ({
   left: "0",
   overflow: "hidden",
   marginBottom:"2rem",
+  marginBottom:"2rem",
+
 
   p: {
     fontSize: "1.2rem",
