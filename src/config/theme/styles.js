@@ -9,6 +9,7 @@ import { styled } from "@mui/material";
 
 export const LayoutContainer = styled(Box)(({ theme }) => ({
   minHeight: "100vh",
+  mwidth:"100%",
   display: "flex",
   flexFlow: "column nowrap",
   position: "relative",
@@ -19,6 +20,7 @@ export const LayoutContainer = styled(Box)(({ theme }) => ({
 
 export const PublicContainer = styled(Box)(() => ({
   height: "100%",
+  width:"100%",
   display: "flex",
   flexDirection: "column",
   gap: "1rem",
@@ -49,6 +51,7 @@ export const PublicLoginButton = styled(Button)(({ theme }) => ({
   background: theme.palette.secondary.main,
   color: "white",
   marginTop: "3.5rem",
+  marginBottom: "1.5rem",
   display: "flex",
   minHeight: "60px",
   minWidth: "120px",
@@ -89,13 +92,14 @@ export const PublicFooter = styled(Box)(({ theme }) => ({
   display: "flex",
   minHeight: "50px",
   width: "100%",
-  padding: "2em",
+  padding: "3em",
   alignItems: "center",
   justifyContent: "center",
   position: "absolute",
   bottom: "0",
   left: "0",
   overflow: "hidden",
+  marginBottom:"2rem",
 
   p: {
     fontSize: "1.2rem",
@@ -198,6 +202,7 @@ export const DashLayoutContainer = styled(Box)(({ theme }) => ({
 
 export const DashHeaderContainer = styled(Box)(({ theme }) => ({
   display: "flex",
+  paddingLeft:"12px",
   flexDirection: "row",
   flex: "space-between",
   alignItems: "center",
@@ -205,6 +210,7 @@ export const DashHeaderContainer = styled(Box)(({ theme }) => ({
   minHeight: "70px",
   marginTop: "1rem",
   marginBottom: "1.8rem",
+
 }));
 
 export const LogoLink = styled(Link)(({ theme }) => ({
@@ -258,7 +264,9 @@ export const DashFooterContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
   height: "50px",
   padding: "1rem",
-  marginTop: "2rem",
+  marginTop: "3rem",
+  marginBottom:"1rem",
+
   p: {
     marginLeft: "1.5rem",
     fontSize: "1.2rem",

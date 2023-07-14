@@ -47,6 +47,7 @@
 > -express-async-handler
 >
 > -date-fns
+
 > -uui
 >
 > -cors
@@ -54,6 +55,13 @@
 - **Database**
 
 > -Mongo DB (nosql)
+
+## Demo Test
+
+- User info for sign in;
+
+* Member: {username: "memberTest", password: "memberTest}
+* Admin: {username: "adminTest", password: "adminTest}
 
 ## Preview
 

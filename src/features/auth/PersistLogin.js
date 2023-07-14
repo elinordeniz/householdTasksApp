@@ -4,6 +4,8 @@ import { useRefreshMutation } from "./authApiSlice";
 import usePersist from "../../hooks/usePersist";
 import { useSelector } from "react-redux";
 import { selectCurrentToken } from "./authSlice";
+import { CircularProgress } from "@mui/material";
+
 
 const PersistLogin = () => {
   const [persist] = usePersist();
@@ -45,7 +47,7 @@ const PersistLogin = () => {
     content = <Outlet />;
   } else if (isLoading) {
     //persist: yes, token: no
-    content = <p>Loading...</p>;
+    content = <CircularProgress style={{margin:"auto"}} />
   } else if (isError) {
     //persist: yes, token: no
     content = (

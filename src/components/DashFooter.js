@@ -4,6 +4,8 @@ import { useNavigate, useLocation } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import { DashFooterContainer } from "../config/theme/styles"
 import { useTranslation } from "react-i18next";
+import Button from "@mui/material/Button";
+
 
 
 const DashFooter = () => {
@@ -17,9 +19,9 @@ const DashFooter = () => {
   let goHomeButton = null;
   if (pathname !== "/dash") {
     goHomeButton = (
-      <button title="Home" onClick={onGoHomeClicked}>
-        <FontAwesomeIcon icon={faHouse} />
-      </button>
+      <Button title="Home" onClick={onGoHomeClicked}>
+        <FontAwesomeIcon size="xl" icon={faHouse} />
+      </Button>
     );
   }
 

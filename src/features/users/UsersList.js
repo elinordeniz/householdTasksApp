@@ -26,7 +26,7 @@ const UsersList = () => {
   });
  
   let content;
-  if (isLoading) content = <CircularProgress />;
+  if (isLoading) content = <CircularProgress style={{margin:"auto"}} />;
 
   if (isError) {
     content = <p>{error?.data?.message}</p>;

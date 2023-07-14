@@ -28,7 +28,7 @@ const TasksList = () => {
   });
   let content;
 
-  if (isLoading) content = <CircularProgress />;
+  if (isLoading) content = <CircularProgress style={{margin:"auto"}} />;
 
   if (isError) {
      if(error.status===400){

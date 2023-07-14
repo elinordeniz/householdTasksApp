@@ -104,7 +104,7 @@ const DashHeader = () => {
 
   let buttonContent;
   if (isLoading) {
-    buttonContent = <CircularProgress />;
+    buttonContent = <CircularProgress style={{margin:"auto"}} />;
   } else {
     buttonContent = (
       <>

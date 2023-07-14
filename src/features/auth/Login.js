@@ -69,7 +69,7 @@ const Login = () => {
     }
   };
 
-  if (isLoading) return <LoginContainer><CircularProgress /></LoginContainer>;
+  if (isLoading) return <LoginContainer><CircularProgress style={{margin:"auto"}}/></LoginContainer>;
 
   const content = (
     <LoginContainer>
